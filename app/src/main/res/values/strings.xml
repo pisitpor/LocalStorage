@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LocalStorage</string>
+    <string name="btnText">Get Message from share preference</string>
+</resources>
