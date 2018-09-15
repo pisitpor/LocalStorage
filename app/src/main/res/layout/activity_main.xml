@@ -21,7 +21,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnGetPref"
-        android:text="@string/btnText"
-        />
+        android:text="@string/btnText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetRealmData"
+        android:text="Get data from Realm database"
+
+        app:layout_constraintTop_toBottomOf="@id/btnGetPref"
+        android:layout_marginTop="20dp"/>
 
 </android.support.constraint.ConstraintLayout>
